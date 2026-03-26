@@ -121,10 +121,10 @@ const Treatments = () => {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-accent font-body font-semibold text-sm hover:underline"
+            className="inline-flex items-center gap-2 bg-accent text-accent-foreground font-body font-semibold text-sm px-6 py-3 rounded-full hover:opacity-90 transition-opacity"
           >
             <MessageCircle className="h-4 w-4" />
-            Falar com a clínica →
+            Falar com a Clínica
           </a>
         </motion.div>
       </div>
